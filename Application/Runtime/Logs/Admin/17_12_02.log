@@ -1,0 +1,1805 @@
+[ 2017-12-02T22:14:24+08:00 ] ::1 /APP/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017423s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.017120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.017591s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002873s ]
+
+[ 2017-12-02T22:14:24+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2017-12-02T22:14:48+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-12-02T22:14:50+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+
+[ 2017-12-02T22:14:50+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html?0.4266240361785232
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2017-12-02T22:14:57+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-12-02T22:15:01+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+
+[ 2017-12-02T22:15:02+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html?0.4266240361785232?0.29188513991935716
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2017-12-02T22:15:37+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `nav_admin` [ RunTime:0.1370s ]
+SQL: SELECT * FROM `nav_admin` WHERE `username` = 'mr' LIMIT 1   [ RunTime:0.0298s ]
+
+[ 2017-12-02T22:15:38+08:00 ] ::1 /APP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/Admin/nav-header.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000655s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001040s ]
+NOTIC: [8] Undefined variable: course_type E:\wamp\www\APP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 116 行.
+NOTIC: [8] Undefined variable: course_type E:\wamp\www\APP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 117 行.
+NOTIC: [8] Undefined variable: course_type E:\wamp\www\APP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 118 行.
+NOTIC: [8] Undefined variable: category E:\wamp\www\APP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 122 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 128 行.
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\wamp\www\APP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 154 行.
+NOTIC: [8] Undefined index: p E:\wamp\www\APP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 156 行.
+NOTIC: [8] Undefined variable: course E:\wamp\www\APP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 177 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\APP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 213 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004123s ]
+
+[ 2017-12-02T22:15:48+08:00 ] ::1 /APP/index.php/Admin/HighLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+ERR: 非法操作:lists
+
+[ 2017-12-02T22:18:06+08:00 ] ::1 /APP/index.php/Admin/HighLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.1474s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_high_level` LIMIT 1   [ RunTime:0.0280s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\HighLevelController.class.php 第 59 行.
+SQL: SELECT * FROM `nav_high_level` LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 146 行.
+NOTIC: [8] Undefined index: p E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 157 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 179 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 179 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 179 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 179 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 179 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2017-12-02T22:18:30+08:00 ] ::1 /APP/index.php/Admin/Public/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+ERR: 非法操作:logo
+
+[ 2017-12-02T22:19:01+08:00 ] ::1 /APP/index.php/Admin/Public/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-12-02T22:19:02+08:00 ] ::1 /APP/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2017-12-02T22:19:02+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2017-12-02T22:19:15+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `nav_admin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `nav_admin` WHERE `username` = 'mr' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-12-02T22:19:16+08:00 ] ::1 /APP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+
+[ 2017-12-02T22:19:16+08:00 ] ::1 /APP/index.php/Admin/HighLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_high_level` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\HighLevelController.class.php 第 59 行.
+SQL: SELECT * FROM `nav_high_level` LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 146 行.
+NOTIC: [8] Undefined index: p E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 157 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 179 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 179 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 179 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 179 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 179 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2017-12-02T22:19:25+08:00 ] ::1 /APP/index.php/Admin/HighLevel/add/id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `nav_high_level` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2017-12-02T22:19:32+08:00 ] ::1 /APP/index.php/Admin/HighLevel/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 128 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 137 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 146 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 152 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 158 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2017-12-02T22:19:37+08:00 ] ::1 /APP/index.php/Admin/HighLevel/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 128 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 137 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 146 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 152 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 158 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2017-12-02T22:19:46+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.1130s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 57 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 0,10   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2017-12-02T22:19:48+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 57 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 10,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2017-12-02T22:19:49+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 57 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 20,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2017-12-02T22:19:50+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 57 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 30,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2017-12-02T22:19:51+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 57 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 40,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-12-02T22:19:51+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 57 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 50,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2017-12-02T22:19:52+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 57 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 60,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2017-12-02T22:19:54+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 57 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 50,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2017-12-02T22:19:58+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 57 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2017-12-02T22:20:02+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 57 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2017-12-02T22:20:07+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add/id/74.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php on line 18 and defined E:\wamp\www\APP\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\APP\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\APP\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\APP\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `nav_high_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `nav_middle_level` WHERE `id` = 74  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index: high_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined index: high_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined index: high_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined index: high_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined index: high_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined index: high_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined index: middle_name E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 143 行.
+NOTIC: [8] Undefined index: sort E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 149 行.
+NOTIC: [8] Undefined index: is_recommend E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 155 行.
+NOTIC: [8] Undefined index: is_recommend E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 159 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2017-12-02T22:20:15+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php on line 18 and defined E:\wamp\www\APP\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\APP\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\APP\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\APP\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `nav_high_level`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 143 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 149 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 155 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 159 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2017-12-02T23:08:14+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 81 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2017-12-02T23:08:18+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add/id/70.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `nav_middle_level` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `nav_high_level`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2017-12-02T23:08:28+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `nav_high_level`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 143 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 149 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 155 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 159 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2017-12-02T23:13:44+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 75 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 80 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2017-12-02T23:13:46+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add/id/70.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [8] Undefined variable: middle_level E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 33 行.
+
+[ 2017-12-02T23:13:51+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `nav_high_level`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 143 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 149 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 155 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 159 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2017-12-02T23:13:57+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add/id/70.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] Undefined variable: middle_level E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 33 行.
+
+[ 2017-12-02T23:15:44+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 81 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2017-12-02T23:15:46+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add/id/70.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `nav_high_level`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav_middle_level` WHERE `id` = 70  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined index: high_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined index: high_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined index: high_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined index: high_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined index: high_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined index: high_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined index: middle_name E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 143 行.
+NOTIC: [8] Undefined index: sort E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 149 行.
+NOTIC: [8] Undefined index: is_recommend E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 155 行.
+NOTIC: [8] Undefined index: is_recommend E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 159 行.
+NOTIC: [8] Undefined index: id E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2017-12-02T23:16:27+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 81 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 0,10   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2017-12-02T23:16:29+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add/id/70.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `nav_high_level`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav_middle_level` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2017-12-02T23:20:33+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 82 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2017-12-02T23:20:35+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `nav_high_level`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 134 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 143 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 149 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 155 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 159 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\APP\Application\Runtime\Cache\Admin\61bea88cfbb151805bd8ea31e8efd0a6.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2017-12-02T23:20:40+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add/id/70.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_middle_level` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2017-12-02T23:20:44+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add/id/70.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `nav_middle_level` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2017-12-02T23:22:53+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add/id/70.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav_middle_level` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2017-12-02T23:24:31+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 82 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2017-12-02T23:24:32+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add/id/70.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav_middle_level` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2017-12-02T23:45:47+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add/id/70.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `nav_middle_level` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_high_level`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2017-12-02T23:45:58+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: map E:\wamp\www\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 29 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc, sort desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 146 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id E:\wamp\www\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2017-12-02T23:46:01+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add/id/70.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `nav_middle_level` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-12-02T23:46:13+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/add/id/70.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav_middle_level` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav_high_level`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory E:\wamp\www\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
